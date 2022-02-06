@@ -1,0 +1,11 @@
+[build]
+target = "x86_64-unknown-uefi"
+out-dir = "mnt/EFI/BOOT"
+
+[target.x86_64-unknown-uefi]
+runner = "../../devenv/run_qemu"
+
+[unstable]
+build-std = ["core", "compiler_builtins", "alloc"]
+build-std-features = ["compiler-builtins-mem"]
+unstable-options = true

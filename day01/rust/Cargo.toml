@@ -1,0 +1,12 @@
+[package]
+name = "seccamp-2020-os"
+version = "0.1.0"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+[dependencies]
+utf16_literal = "0.2.1"
