@@ -1,0 +1,5 @@
+*/rust/target
+mnt
+disk.img
+**/*.o
+devenv/OVMF_VARS.fd
